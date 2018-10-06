@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2018-10-06 10:00:02"><sys_remote_update_set action="INSERT_OR_UPDATE"><application display_value="Global">global</application><application_name>Global</application_name><application_scope>global</application_scope><application_version/><collisions/><commit_date/><deleted/><description>Problem : &#13;
+There are several instances where a B&amp;B incident has failed to create a Newsignature case. When the short description contains a quote, it causes the json payload to become malformed.&#13;
+&#13;
+Fix : &#13;
+Update script to ensure the Json payload is properly formed when the Short Description contains "quotes" .&#13;
+&#13;
+Affected Business Rule : Create New Signature Case</description><inserted/><name>New Signature - Requests 4</name><origin_sys_id/><parent/><release_date/><remote_base_update_set/><remote_parent_id/><remote_sys_id>a163871c13856b80d1783b27d144b099</remote_sys_id><state>loaded</state><summary/><sys_class_name>sys_remote_update_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-06 10:00:02</sys_created_on><sys_id>f68c39ecdb012300968174dfaa9619e8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-06 10:00:02</sys_updated_on><update_set/><update_source/><updated/></sys_remote_update_set></unload>
